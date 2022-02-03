@@ -11,7 +11,7 @@ const GifExpertApp = () => {
       <header className="animate__animated animate__fadeInTopLeft">
         <img
           className="giphy"
-          src="/images/giphy.png"
+          src="./images/giphy.png"
           alt="Giphy"
           title="Giphy"
         />

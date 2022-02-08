@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of Component : <GifGrid/> GifGrid : Component Mounts Correctly 1`] = `
+<div
+  className="grid animate__animated animate__fadeIn"
+>
+  <h3>
+    One Punch Man
+  </h3>
+  <p>
+    Cargando...
+  </p>
+  <div
+    className="card-grid "
+  />
+</div>
+`;
+
+exports[`Test of Component : <GifGrid/> GifGrid : Component Mounts Correctly With Use Fetch 1`] = `
+<div
+  className="grid animate__animated animate__fadeIn"
+>
+  <h3>
+    One Punch Man
+  </h3>
+  <div
+    className="card-grid "
+  >
+    <GifGridItem
+      key="ABC"
+      title="ABC"
+      url="https://something.com"
+    />
+    <GifGridItem
+      key="ABCD"
+      title="ABCD"
+      url="https://something2.com"
+    />
+  </div>
+</div>
+`;

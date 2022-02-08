@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of Component : <GifExpertApp/> GifExpertApp : Component Mounts Correctly 1`] = `
+<Fragment>
+  <header
+    className="animate__animated animate__fadeInTopLeft"
+  >
+    <img
+      alt="Giphy"
+      className="giphy"
+      src="./images/giphy.png"
+      title="Giphy"
+    />
+  </header>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <GifGrid
+    category="One Punch Man"
+    key="One Punch Man"
+  />
+</Fragment>
+`;
+
+exports[`Test of Component : <GifExpertApp/> GifExpertApp : Component Mounts Correctly 2`] = `
+<Fragment>
+  <header
+    className="animate__animated animate__fadeInTopLeft"
+  >
+    <img
+      alt="Giphy"
+      className="giphy"
+      src="./images/giphy.png"
+      title="Giphy"
+    />
+  </header>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <GifGrid
+    category="One Punch Man"
+    key="One Punch Man"
+  />
+  <GifGrid
+    category="Goku"
+    key="Goku"
+  />
+</Fragment>
+`;

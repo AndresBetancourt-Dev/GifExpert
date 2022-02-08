@@ -13,14 +13,18 @@ body {
   background: #111111;
 }
 
+form {
+  cursor: pointer;
+}
+
 input {
   padding: 0.25em;
   font-size: 1.5em;
   width: 100%;
   outline: none;
   border: none;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5), 2px 2px 8px red,
-    2px 2px 8px greenyellow, 2px 2px 8px blue;
+  box-shadow: 2px 2px 10px 1px red, 2px 2px 20px 2px greenyellow,
+    2px 2px 30px 3px blue, 2px 2px 40px 4px purple;
   border-radius: 0.5em;
   color: gray;
   margin-top: 1em;
@@ -34,11 +38,13 @@ input {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: pointer;
 }
 
 input:focus {
   padding: 0.5em;
-  box-shadow: 2px 2px 20px red, 2px 2px 20px greenyellow, 2px 2px 20px blue;
+  box-shadow: 2px 2px 10px 1px yellow, 2px 2px 20px 2px purple,
+    2px 2px 30px 3px blue, 2px 2px 40px 4px greenyellow;
 }
 
 header {
@@ -59,7 +65,7 @@ header {
 
 .grid h3 {
   text-align: center;
-  padding: 1em;
+  padding-top: 1em;
   font-size: clamp(3em, 2vw, 5em);
 }
 

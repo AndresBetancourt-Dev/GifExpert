@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of Component : <GifGridItem/> GifGridItem : Component Mounts Correctly 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="One Punch Man"
+    src="https://media3.giphy.com/media/yo3TC0yeHd53G/giphy.gif?cid=4938fc14v1f9xsy1na3fmayewogxuckicfc7l11fgjt3yyvj&rid=giphy.gif&ct=g"
+    title="One Punch Man"
+  />
+  <p>
+    One Punch Man
+  </p>
+</div>
+`;
+
+exports[`Test of Component : <GifGridItem/> GifGridItem : Test PropTypes 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="One Punch Man"
+    src="https://media3.giphy.com/media/yo3TC0yeHd53G/giphy.gif?cid=4938fc14v1f9xsy1na3fmayewogxuckicfc7l11fgjt3yyvj&rid=giphy.gif&ct=g"
+    title="One Punch Man"
+  />
+  <p>
+    One Punch Man
+  </p>
+</div>
+`;
